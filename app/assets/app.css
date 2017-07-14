@@ -1,0 +1,39 @@
+body {
+  background-image: url("back.jpg");
+  font-weight: 300;
+  font-size: 100%;
+  text-shadow: 0 0 0 #000;
+}
+#container {
+  position: relative;
+  background-color: #222;
+  padding: 32px 16px 16px 16px;
+  border: 1px solid #111;
+  max-width: 60em;
+  _width: 50em;
+  margin: 0px auto;
+}
+label{
+  color: #0bff78;
+  font-family: comic;
+  font-size: large;
+
+}
+h1{
+  color: #e4ff24;
+}
+span{
+  color: #54adff;
+
+}
+p{
+  color: #0bff78;
+}
+hr {
+  color: #caff99;
+  background: #9fffd9;
+  width: 75%;
+  height: 5px;
+  align: center;
+}
+

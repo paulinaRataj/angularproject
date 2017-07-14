@@ -1,0 +1,74 @@
+<p>This is the section with form.</p>
+
+  <form class="form">
+    <div>
+      <label>Imie</label>
+      <input type="text" placeholder="Może być puste" />
+    </div>
+    <br>
+    <div>
+      <label>Nazwisko</label>
+      <input type="text" required placeholder="Wpisz jakiś tekst" />
+    </div>
+    <br>
+
+    <div>
+      <label>Data</label>
+      <input type="text" pattern="^\d{2}\.\d{2}\.\d{4}$" required placeholder="dd.mm.rrrr" />
+    </div>
+    <br>
+
+    <div>
+      <label>URL</label>
+      <input type="url" required placeholder="http://" />
+    </div>
+    <br>
+
+    <div>
+      <label>Email</label>
+      <input type="email" required placeholder="Email" />
+    </div>
+    <br>
+
+    <div>
+      <label>Cel</label>
+      <textarea required pattern="^abc$"></textarea>
+    </div>
+    <br>
+
+    <div>
+      <label>Opcja</label>
+      <select required>
+        <option value="">Wybierz coś</option>
+        <option value="1">Super opcja 1</option>
+        <option value="2">Super opcja 2</option>
+      </select>
+    </div>
+    <br>
+
+    <div>
+      <label>Miasto</label>
+      <br>
+      <input type="radio" required name="test1" /> Wrocław
+      <input type="radio" required name="test1" /> Poznań
+      <input type="radio" required name="test1" /> Szczecin
+      <input type="radio" required name="test1" /> Kraków
+      <input type="radio" required name="test1" /> Gdańsk
+    </div>
+    <br>
+
+    <div>
+      <label>Cukierki</label>
+      <br>
+      <input type="checkbox" required name="test2" /> Czekolada
+      <input type="checkbox" required name="test2" /> Michałki
+      <input type="checkbox" required name="test2" /> Grześki
+      <input type="checkbox" required name="test2" /> Śmiej żelki
+      <input type="checkbox" required name="test2" /> Ptasie mleczko
+    </div>
+    <br>
+
+    <div>
+      <input type="submit" value="Wyślij" />
+    </div>
+  </form>
